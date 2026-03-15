@@ -102,7 +102,7 @@ export default function History() {
                         {formatTime(r.checkIn?.time)}
                       </p>
                       {r.checkIn?.image && (
-                        <img src={`http://localhost:5000${r.checkIn.image}`} alt="check-in"
+                        <img src={`https://attendtrack-backend.onrender.com${r.checkIn.image}`} alt="check-in"
                           className="w-8 h-8 rounded-lg object-cover mt-2" />
                       )}
                     </div>
@@ -117,7 +117,7 @@ export default function History() {
                         {formatTime(r.checkOut?.time)}
                       </p>
                       {r.checkOut?.image && (
-                        <img src={`http://localhost:5000${r.checkOut.image}`} alt="check-out"
+                        <img src={`https://attendtrack-backend.onrender.com${r.checkOut.image}`} alt="check-out"
                           className="w-8 h-8 rounded-lg object-cover mt-2" />
                       )}
                     </div>

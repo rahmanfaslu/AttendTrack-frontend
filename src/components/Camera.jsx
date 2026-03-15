@@ -85,7 +85,7 @@ export default function Camera({ onCapture, onCancel, distance }) {
               <video ref={videoRef} autoPlay playsInline muted
                 className="w-full h-full object-cover"
                 style={{ transform: 'scaleX(-1)' }} />
-                
+
               {/* Frame guide */}
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
                 <div className="w-32 h-40 rounded-full border-2 border-white/40" />
