@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F4F6F9] text-[#0F1923];
+  }
+}
